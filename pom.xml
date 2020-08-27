@@ -6,7 +6,7 @@
   <name>JavaTestDemo</name>
   <packaging>jar</packaging>
   <description>This is Java Testing Demo</description>
-  <url>http://maven.pkg.github.com/PramodhMDT</url>
+  <url>https://pkgs.dev.azure.com/ganeshj0569/newproject/_packaging/mavenfeed/maven/v1</url>
 	
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,15 +70,15 @@
 </build>
 	
   <distributionManagement>
-    <repository>
-      <id>github</id>
-      <url>https://maven.pkg.github.com/PramodhMDT/javatestdemo</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
+   <repository>
+  <id>mavenfeed</id>
+  <url>https://pkgs.dev.azure.com/ganeshj0569/newproject/_packaging/mavenfeed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
   </distributionManagement>
 </project>
